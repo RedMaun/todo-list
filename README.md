@@ -1,29 +1,23 @@
 # todo-list
+Простой todo лист, в котором можно добавлять, удалять задачи, помечать задачу выполненной. Задачи сохраняются в localstorage
 
-This template should help get you started developing with Vue 3 in Vite.
+![image](https://github.com/user-attachments/assets/5068afa2-a2a1-4656-8130-ef3ec64be23f)
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Установка
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Просмотр приложения в dev режиме
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Компиляция проекта
 
 ```sh
 npm run build
 ```
+
