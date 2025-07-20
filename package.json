@@ -5,16 +5,19 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "node build.js",
     "preview": "vite preview"
   },
   "dependencies": {
     "crypto": "^1.0.1",
     "crypto-browserify": "^3.12.1",
+    "esbuild-plugin-vue": "^0.2.4",
     "vue": "^3.5.17"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
+    "esbuild": "^0.25.8",
+    "esbuild-plugin-vue3": "^0.4.2",
     "vite": "^7.0.2",
     "vite-plugin-vue-devtools": "^7.7.7"
   }
